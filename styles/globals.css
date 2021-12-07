@@ -22,7 +22,7 @@ a {
 }
 
 .bg-image{
-  background-image: url('../public/images/back.png');
+  background-image: url('../public/images/back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

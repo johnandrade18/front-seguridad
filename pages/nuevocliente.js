@@ -65,7 +65,7 @@ const NuevoCliente = () => {
     validationSchema: Yup.object({
       nombre: Yup.string().required("El nombre del cliente es obligatorio"),
       apellido: Yup.string().required("El apellido del cliente es obligatorio"),
-      empresa: Yup.string().required("El campo empresa es obligatorio"),
+      empresa: Yup.string().required("El campo barrio es obligatorio"),
       email: Yup.string()
         .required("El email del cliente es obligatorio")
         .email("Email no valido"),
@@ -114,7 +114,7 @@ const NuevoCliente = () => {
   return (
     <Layout>
       <h1 className="text-2xl text-white font-light text-center">
-        Nuevo Cliente
+        Nuevo Ciudadano
       </h1>
 
       {mensaje && mostrarMensaje()}
@@ -180,13 +180,13 @@ const NuevoCliente = () => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="empresa"
               >
-                Empresa
+                Barrio
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus: outline-none focus:shadow-outline  "
                 id="empresa"
                 type="text"
-                placeholder="Empresa"
+                placeholder="Barrio"
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.empresa}

@@ -52,7 +52,7 @@ const MejoresClientes = () => {
 
   return (
     <Layout>
-      <h1 className="text-2xl text-white font-light">Mejores Clientes</h1>
+      <h1 className="text-2xl text-white font-light">Ciudadanos Ejemplares</h1>
       <ResponsiveContainer
         width={'99%'}
         height={550}

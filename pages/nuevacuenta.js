@@ -96,10 +96,16 @@ const NuevaCuenta = () => {
     <div>
       <Layout>
         {mensaje && mostrarMensaje()}
-
-        <h1 className="text-center text-2xl text-white font-bold">
+        <div className="flex justify-center mt-5 w-full">
+        <div max-width="200px" className="bg-white flex justify-center mt-5 br-22px max-w-xs">
+        <img width="150px" class="logocandelaria" src="./images/candelaria.png"/>
+        <h1 className="text-center text-2xl text-black font-bold">
           Crear Nueva Cuenta
         </h1>
+        </div>
+        </div>
+
+        
         <div className="flex justify-center mt-5 ">
           <div className="w-full max-w-sm">
             <form
