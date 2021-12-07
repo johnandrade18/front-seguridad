@@ -45,7 +45,7 @@ const Sidebar = () => {
           }
         >
           <Link href="/productos">
-            <a className="font-medium my-2 block px-5"> Reportes </a>
+            <a className="font-medium my-2 block px-5"> Reporte </a>
           </Link>
         </li>
       </nav>
